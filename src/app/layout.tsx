@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   description: "Test and improve your typing speed with TypeMaster. Track your WPM, accuracy, and compete with yourself!",
   keywords: ["typing test", "wpm", "typing speed", "typing practice", "keyboard skills"],
   authors: [{ name: "TypeMaster" }],
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/favicon.svg",
+  },
   openGraph: {
     title: "TypeMaster - Typing Speed Test",
     description: "Test and improve your typing speed",
